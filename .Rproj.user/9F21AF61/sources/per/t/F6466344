@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1548763485914.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "707777291",
+    "id" : "F6466344",
+    "lastKnownWriteTime" : 1548763846,
+    "last_content_update" : 1548763846880,
+    "path" : "C:/Users/Benjamin Schlegel/OneDrive - uzh.ch/01_UZH/06_R_Book/data/schlegel/R/download_files.R",
+    "project_path" : "R/download_files.R",
+    "properties" : {
+        "cursorPosition" : "16,1",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
