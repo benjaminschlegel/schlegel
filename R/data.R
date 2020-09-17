@@ -24,3 +24,22 @@
 #' }
 #' @source Selects: Post-electoral study - 2015 [Dataset]. Distributed by FORS, Lausanne, 2016. \url{www.selects.ch} \url{https://doi.org/10.23662/FORS-DS-726-5}
 "selects2015"
+
+
+#' Political Affairs
+#'
+#' A dataset containing all affairs from 2015 to 2019 of the Swiss parliament.
+#' The date was downloaded from Swiss Parliament API.
+#'
+#' @format A data frame with 9146 rows and 7 variables:
+#' \describe{
+#'   \item{affairID}{the unique ID of the affair}
+#'   \item{type}{the type of the affair}
+#'   \item{date}{the date the affair was initially submitted}
+#'   \item{session}{the parliament session number the affair was submitted}
+#'   \item{topics}{topic areas of the affair}
+#'   \item{pID}{the ID of the author (parliament member)}
+#'   \item{party}{the party of the author}
+#' }
+#' @source ws-old.parliament.ch / self combined
+"affairs"

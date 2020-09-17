@@ -4,7 +4,8 @@
 \name{selects2015}
 \alias{selects2015}
 \title{Swiss Electoral Studies (Selects) 2015 - Post-electoral study}
-\format{A data frame with 5337 rows and 15 variables:
+\format{
+A data frame with 5337 rows and 15 variables:
 \describe{
   \item{gender}{the gender of the participant}
   \item{age}{the age of the participant}
@@ -22,7 +23,8 @@
   \item{opinion_nuclear_energy}{opinion on nuclear energy}
   \item{opinion_high_income_taxes}{opinion on high income taxes}
   \item{weight_total}{A weight to make the survey representative (design weight * turnout * vote_choice)}
-}}
+}
+}
 \source{
 Selects: Post-electoral study - 2015 [Dataset]. Distributed by FORS, Lausanne, 2016. \url{www.selects.ch} \url{https://doi.org/10.23662/FORS-DS-726-5}
 }
