@@ -15,6 +15,7 @@ A data frame with 5337 rows and 15 variables:
   \item{vote_choice}{The party the participant mainly voted for: SVP, FDP, CVP, SP, GPS, GLP, BDP, other}
   \item{political_interest}{political interest of the participant, self declaration}
   \item{lr_self}{left right self placement}
+  \item{lr_*party*}{left right placement of parties for: SVP, FDP, CVP, SP, GPS, GLP, BDP}
   \item{knowscale}{political knowledge scale between 0 and 4}
   \item{opinion_social_expenses}{opinion about social expense}
   \item{opinion_eu_membership}{opinion if Switzerland should join the EU}
