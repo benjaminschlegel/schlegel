@@ -12,6 +12,7 @@ A data frame with 9146 rows and 7 variables:
   \item{date}{the date the affair was initially submitted}
   \item{session}{the parliament session number the affair was submitted}
   \item{topics}{topic areas of the affair}
+  \item{text}{text of the affair}
   \item{pID}{the ID of the author (parliament member)}
   \item{party}{the party of the author}
 }
