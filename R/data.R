@@ -45,3 +45,30 @@
 #' }
 #' @source ws-old.parliament.ch / self combined
 "affairs"
+
+#' Swiss Popular Votes
+#' 
+#' A dataset containing all popular votes in Switzerland between June 1981 and June 2016 on community level.
+#' 
+#' @format A data frame with 696463 rows and 17 variables:
+#' \describe{
+#'   \item{date}{date of the vote}
+#'   \item{bill}{the title of the bill}
+#'   \item{voters}{number of potential voters}
+#'   \item{votes_cast}{number of votes casted}
+#'   \item{turnout}{turnout in percentage}
+#'   \item{valid}{number of valid votes}
+#'   \item{yes}{number of yes votes}
+#'   \item{no}{number of no votes}
+#'   \item{yes_prop}{yes votes in percentage}
+#'   \item{canton}{canton of the community}
+#'   \item{community}{community name}
+#'   \item{disrict}{district of the community}
+#'   \item{type}{type of the bill}
+#'   \item{topic}{topic of the bill}
+#'   \item{subtopic}{subtopic of the bill}
+#'   \item{detail_topic}{details of the topic}
+#'   \item{bill_nr}{the identifier}
+#' }
+#' @source Benjamin Schlegel; Bundesamt für Statistik (BFS)/Abstimmungsstatistik
+"swiss_popular_bills"
