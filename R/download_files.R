@@ -14,4 +14,10 @@ download_files <- function(path = getwd()){
   file.copy(from = system.file("extdata", "1999-2014_CHES.xlsx",
                                package = "schlegel"),
             to = path)
+  file.copy(from = system.file("extdata", "1999-2014_CHES.sav",
+                               package = "schlegel"),
+            to = path)
+  file.copy(from = system.file("extdata", "1999-2014_CHES.Rds",
+                               package = "schlegel"),
+            to = path)
 }

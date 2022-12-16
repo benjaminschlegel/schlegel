@@ -4,7 +4,7 @@
 #'
 #' @name 1999-2014_CHES
 #'
-#' @format 1999-2014_CHES.csv, 1999-2014_CHES.dta, 1999-2014_CHES.xlsx: 949 rows and 72 columns
+#' @format 1999-2014_CHES.csv, 1999-2014_CHES.dta, 1999-2014_CHES.xlsx, 1999-2014_CHES.Rds, 1999.2014_CHES.sav: 949 rows and 72 columns
 #' \describe{
 #'   \item{country}{the country of the party}
 #'   \item{eastwest}{country type}
