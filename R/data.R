@@ -72,3 +72,35 @@
 #' }
 #' @source Benjamin Schlegel; Bundesamt für Statistik (BFS)/Abstimmungsstatistik
 "swiss_popular_bills"
+
+#' ESS round 8 - 2016. Welfare attitudes, Attitudes to climate change
+#'
+#' A data set with environment items from the 8th round of ESS,
+#' all recoded from 0 to 5 where 0 indicates against enviroment and
+#' 5 for environment (original variables are on different scales)
+#'
+#' @format A data frame with 32738 rows and 20 variables:
+#' \describe{
+#'   \item{cntry}{the country of the participant}
+#'   \item{eneffap}{How likely to buy most energy efficient home appliance}
+#'   \item{rdcenr}{How often do things to reduce energy use}
+#'   \item{elgcoal}{How much electricity in [country] should be generated from coal}
+#'   \item{elgngas}{How much electricity in [country] should be generated from natural gas}
+#'   \item{elghydr}{How much electricity in [country] should be generated from hydroelectric power}
+#'   \item{elgnuc}{How much electricity in [country] should be generated from nuclear power}
+#'   \item{elgsun}{How much electricity in [country] should be generated from solar power}
+#'   \item{elgwind}{How much electricity in [country] should be generated from wind power}
+#'   \item{elgbio}{How much electricity in [country] should be generated from biomass energy}
+#'   \item{wrdpfos}{How worried, [country] too dependent on fossil fuels}
+#'   \item{clmchng}{Do you think world's climate is changing}
+#'   \item{clmthgt2}{How much thought about climate change before today}
+#'   \item{ccnthum}{Climate change caused by natural processes, human activity, or both}
+#'   \item{ccrdprs}{To what extent feel personal responsibility to reduce climate change}
+#'   \item{wrclmch}{How worried about climate change}
+#'   \item{ccgdbd}{Climate change good or bad impact across world}
+#'   \item{inctxff}{Favour increase taxes on fossil fuels to reduce climate change}
+#'   \item{sbsrnen}{Favour subsidise renewable energy to reduce climate change}
+#'   \item{banhhap}{Favour ban sale of least energy efficient household appliances to reduce climate}
+#' }
+#' @source European Social Survey European Research Infrastructure (ESS ERIC). (2020). ESS8 - integrated file, edition 2.2 [Data set]. Sikt - Norwegian Agency for Shared Services in Education and Research. \url{https://doi.org/10.21338/ESS8E02_2}
+"ess8"
