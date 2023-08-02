@@ -104,3 +104,25 @@
 #' }
 #' @source European Social Survey European Research Infrastructure (ESS ERIC). (2020). ESS8 - integrated file, edition 2.2 [Data set]. Sikt - Norwegian Agency for Shared Services in Education and Research. \url{https://doi.org/10.21338/ESS8E02_2}
 "ess8"
+
+#' Country Data from UN
+#'
+#' A data set with country data of different years
+#'
+#' @format A data frame with 2141 rows and 12 variables:
+#' \describe{
+#'   \item{code}{UN country code}
+#'   \item{country}{Name of the country}
+#'   \item{year}{Year of the value}
+#'   \item{gdppc}{Gross domestic product (GDP) per capity}
+#'   \item{popgrow}{Growth of the population}
+#'   \item{fertility}{Children per women}
+#'   \item{infantmortality}{Infant mortality for both sexes (per 1,000 live births)}
+#'   \item{maternalmortality}{Maternal mortality ratio (deaths per 100,000 population)}
+#'   \item{lifeexpall}{Life expectancy at birth for both sexes (years)}
+#'   \item{lifeexpmale}{Life expectancy at birth for males (years)}
+#'   \item{lifeexpfemale}{Life expectancy at birth for females (years)}
+#'   \item{homicide}{Intentional homicide rates per 100,000}
+#' }
+#' @source undata. A world of information. \url{https://data.un.org/}
+"world"
