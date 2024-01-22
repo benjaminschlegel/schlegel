@@ -126,3 +126,22 @@
 #' }
 #' @source undata. A world of information. \url{https://data.un.org/}
 "world"
+
+#' Sesame Street Experiment
+#' 
+#' A dataset containing data of an experiment on Sesame Street
+#' 
+#' @format A data frame with 210 rows and 9 variables:
+#' \describe{
+#'   \item{id}{subject identication number}
+#'   \item{sex}{sex of child}
+#'   \item{age}{age in months}
+#'   \item{encouragement}{1 = encouragement to watch Sesame Street; 0 = no encouragement}
+#'   \item{watched}{1 = watches Sesame Street at least once per week; 0 = rarely watches the show}
+#'   \item{pretest_letters}{pretest on letters}
+#'   \item{posttest_letters}{posttest on letters}
+#'   \item{pretest_numbers}{pretest on numbers}
+#'   \item{posttest_numbers}{posttest on numbers}
+#' }
+#' @source Rosendale, Chase, Lei Wang, Tyan Williams (2017): Sesame Street. https://rstudio-pubs-static.s3.amazonaws.com/309289_ee1fd2e0aaeb48de8ca57828fdec00f6.html
+"sesame_street"
