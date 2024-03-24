@@ -149,7 +149,7 @@
 
 #' Party Streng Swiss Nation Council
 #' 
-#' A dataset containing data on the party streng on the Swiss National Council from 1991-2023
+#' A dataset containing data on the party streng on the Swiss National Council from 1919-2023
 #' 
 #' @format A data frame with 702 rows and 3 variables:
 #' \describe{

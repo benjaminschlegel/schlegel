@@ -19,6 +19,6 @@ Bundesamt für Statistik BFS, commercial usage only with approval of them
 partystrength
 }
 \description{
-A dataset containing data on the party streng on the Swiss National Council from 1991-2023
+A dataset containing data on the party streng on the Swiss National Council from 1919-2023
 }
 \keyword{datasets}
