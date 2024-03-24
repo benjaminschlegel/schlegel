@@ -1,11 +1,11 @@
 Package: schlegel
 Type: Package
-Title: Benjamin Schlegel's R Book Package
-Version: 0.0.6
-Date: 2024-01-22
+Title: Benjamin Schlegel's Book Package
+Version: 0.0.7
+Date: 2024-03-24
 Author: Benjamin E. Schlegel [aut,cre]
 Maintainer: Benjamin E. Schlegel <kontakt@benjaminschlegel.ch>
-Description: Contains data used in Benjamin Schlegel's Book "R for Social Scientists".
+Description: Contains data used in Benjamin Schlegel's Books "R for Social Scientists" & "Quantitative Methode der Sozialwissenschaften".
 License: GPL (>=2)
 Depends: R (>= 3.5.0)
 Encoding: UTF-8

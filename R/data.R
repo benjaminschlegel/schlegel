@@ -145,3 +145,17 @@
 #' }
 #' @source Rosendale, Chase, Lei Wang, Tyan Williams (2017): Sesame Street. https://rstudio-pubs-static.s3.amazonaws.com/309289_ee1fd2e0aaeb48de8ca57828fdec00f6.html
 "sesame_street"
+
+
+#' Party Streng Swiss Nation Council
+#' 
+#' A dataset containing data on the party streng on the Swiss National Council from 1991-2023
+#' 
+#' @format A data frame with 702 rows and 3 variables:
+#' \describe{
+#'   \item{Partei}{party}
+#'   \item{Jahr}{year of the election}
+#'   \item{Staerke}{strength of the party}
+#' }
+#' @source Bundesamt für Statistik BFS, commercial usage only with approval of them
+"partystrength"
